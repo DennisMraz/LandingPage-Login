@@ -4,7 +4,7 @@ function login() {
     let password=document.getElementById("password").value;
 
     if (user=="dennis" && password=="123456") {
-        window.location.href = "/view/home.html"; 
+        window.location.href = "/LandingPage-Login/view/home.html";
        
     }else{
         alert("Datos Incorrectos")
